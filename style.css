@@ -1,0 +1,132 @@
+
+html
+{
+    height: 100%;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    background-image: url(images/bg.jpeg);
+    background-size: cover;
+}
+
+a{
+    color: black;
+}
+
+a:hover
+{
+    text-decoration: none;
+}
+
+
+
+.uk-navbar
+{
+    background-color: rgba(255, 255, 255, .8);
+    box-sizing: -10px 8px 7px -8px;
+    border-radius: 0;
+}
+
+.uk-navbar ul li a:hover
+{
+    background-color: rgba(42, 142, 199, .5);
+}
+
+.container
+{
+    margin: 0 auto;
+    width: 960px;
+}
+
+.windows
+{
+    margin-top: 8%;
+}
+
+.bar
+{
+    height: 20px;
+    background-image: linear-gradient(180deg,#EDEBEE,#DAD9DA);
+    border-radius: 7px 7px 0 0;
+    padding: 5px;
+}
+
+.bar i
+{
+    margin-right: 5px;
+}
+
+.windows-navigation
+{
+    background-color: #DAD9DA;
+    border: 0;
+}
+
+.windows-left , .windows-right
+{
+    padding: 20px;
+    height: 300px;
+}
+
+.windows-left
+{
+    background: rgba(274, 258, 250, .8);
+}
+
+.windows-left ul li i
+{
+    margin-right: 10px;
+    
+}
+
+.windows-left ul
+{
+    padding-left: 0;
+    list-style: none;
+}
+
+
+.windows-left ul li
+{
+    margin-bottom: 10px;
+}
+
+.windows-right
+{
+    background: white;
+
+}
+
+.windows-right-item
+{
+    text-align: center;
+}
+
+.interaction-btn
+{
+    margin-right: -20px;
+}
+
+.footer{
+    margin: 0 auto; 
+    width: 520px;
+}
+
+.dock
+{
+    position: absolute;
+    bottom: 2px;
+    width: 420px;
+    height: 60px;
+    background: gold;
+    padding: 0px;
+    background: rgba(0, 0, 0, .4);
+}
+
+.dock ul li{
+    float: left;
+    width: 15.66%;
+    list-style: none;
+}
